@@ -20,10 +20,10 @@ This project introduces data analysis for respiration measurements done with a f
 ### 1. Verification Against Clinical Gold Standards
 The Melanin-ChCl sensor's performance was rigorously benchmarked against a commercial **Thermo-Can thermistor** (the clinical gold standard). 
 *   **BPM Agreement:** A rolling 10-second window Bland-Altman analysis demonstrated moderate and consistent agreement between the methods, exhibiting a minor mean bias of -2.04 BPM.
-*   **Signal Equivalence:** The processed ionic/electronic conductivity signals show exceptional alignment with traditional thermal and airflow sensors, clearly capturing fine respiratory dynamics.
+*   **Signal Equivalence:** The processed impedance signals show exceptional alignment with traditional thermal and airflow sensors, clearly capturing fine respiratory dynamics.
 
 ### 2. Automated Sleep Apnea Detection Performance
-By utilizing an automated dynamic-threshold algorithm across multiple evaluation segments, the pipeline achieved high-fidelity diagnostics:
+By utilizing an automated dynamic-threshold algorithm across multiple evaluation segments, the analysis showed high-fidelity diagnostics:
 *   **Sensitivity:** **100%** (Zero false negatives; correctly identified every apnea event).
 *   **Accuracy:** **95.5%** overall system accuracy.
 
