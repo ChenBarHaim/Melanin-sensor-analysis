@@ -7,7 +7,7 @@ This repository contains the signal processing pipeline, data analysis, and auto
 ## 📌 Project Overview & Motivation
 Sleep apnea affects nearly 1 billion people worldwide, yet most remain undiagnosed due to the discomfort of traditional, bulky polysomnography (PSG) equipment. 
 
-This project introduces a data pipeline for a flexible, skin-conformable humidity sensor based on a bio-derived synthetic melanin-choline chloride (ChCl) matrix. The sensor tracks respiration by measuring resistance changes modulated by breath hydration, offering a high-speed, non-invasive alternative for clinical and home sleep monitoring.
+This project introduces data analysis for respiration measurements done with a flexible, skin-conformable humidity sensor based on a bio-derived synthetic melanin-choline chloride (ChCl) matrix. The sensor tracks respiration by measuring resistance changes modulated by breath hydration, offering a high-speed, non-invasive alternative for clinical and home sleep monitoring.
 
 ## 🛠️ Key Engineering & Data Features
 *   **Signal Conditioning & Artifact Removal:** Implementation of filtering algorithms (including rolling smoothing windows) to handle motion artifacts and baseline drift in raw resistance data (MΩ).
