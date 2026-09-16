@@ -43,13 +43,19 @@ The repository also includes scripts validating the synchronization of this resp
 This multi-modal synchronization lays the groundwork for a comprehensive, single-patch sleep assessment framework.
 
 ## 💻 Tech Stack
-*   **Language:** Python / MATLAB
+*   **Language:** Python
 *   **Libraries used:** NumPy, SciPy (Signal Processing toolbox), Matplotlib, Pandas, Scikit-learn (for confusion matrix and statistical evaluation).
 
 ## 📂 Repository Structure
 *   `/src` or `/scripts`: Source code for filtering, peak detection, and the apnea state-machine.
 *   `/plots` or `/images`: Visual outputs, including the confusion matrix and Bland-Altman plots.
 *   `notebook.ipynb` (Optional): A walkthrough Jupyter Notebook demonstrating the pipeline from raw sensor log to final apnea classification.
+
+## 📁 Code & Scripts
+
+All source code is located in the `/src` directory:
+
+*   **`melanin_vs_commercial_analysis.py`**: The core data pipeline. It ingests raw impedance (Melanin sensor) and clinical EDF files, applies low-pass and drift-removal filters, synchronizes multi-channel sensor data, extracts real-time BPM using `NeuroKit2`, and performs windowed Bland-Altman statistical analysis against gold-standard sensors.
 
 ---
 *Note: This research was conducted in collaboration between Tel Aviv University and the Karlsruhe Institute of Technology (KIT), Germany.*
